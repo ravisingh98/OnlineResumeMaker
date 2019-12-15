@@ -1,0 +1,1 @@
+create table user_mst(fname text,lname text,mobile int,email text,pwd varchar,country text);

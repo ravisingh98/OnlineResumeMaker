@@ -1,0 +1,440 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+.container{
+  width: 1200px;
+  margin: 0px auto;
+}
+.row{
+  display: flex;
+}
+header .left-col{
+  width: 50%;
+}
+header .right-col{
+  width: 50%;
+}
+header{
+  height: 70px;
+  background-color: #2864b1;
+}
+.logo{
+  width: 300px;
+  height: 70px;;
+}
+.wel{
+	color: #fff;
+	text-transform: uppercase;
+}
+ul{
+  list-style: none;
+}
+a{
+  color: #fff;
+  text-decoration: none;
+}
+.right-col li{
+  margin-top: 20px;
+  float: left;
+  margin-right: 30px;
+  font-size: 20px;
+}
+header .right-col img{
+  width: 18px;
+  height: 18px;
+}
+.fa{
+  color: #11b563;
+  cursor: pointer;
+}
+.fa:hover{
+	color: #fff;
+}
+.right-col li .signin{
+  padding: 8px 10px 8px 10px;
+  border: 2px solid #11b563;
+  outline: none;
+  color: #fff;
+  font-size: 15px;
+  margin-top: -5px;
+  background: transparent;
+  cursor: pointer;
+}
+.right-col li .signin:hover{
+  border: 2px solid #fff;;
+}
+.feature{
+  height: 600px;
+}
+.featuree{
+  height: 1200px;
+}
+.feature .left-col{
+  width: 55%;
+}
+.feature .right-col{
+  width: 45%;
+}
+.left-col-desc{
+  margin-top: 100px;
+}
+.feature h1{
+  font-size: 55px;
+}
+.feature .left-col span{
+  font-size: 40px;
+  margin-left: 90px;
+}
+.feature .left-col p{
+  font-size: 20px;
+  margin-top: 20px;
+}
+.feature .left-col i{
+  color: #11b563;
+}
+.feature .left-col .bmr{
+  background-color: #ed1b2e;
+  padding: 20px 30px 20px 30px;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+ outline: none;
+ border: none;
+ color: #fff;
+ cursor: pointer;
+ border-radius: 20px;
+}
+.feature .left-col .bmrr{
+  background-color: #ed1b2e;
+  padding: 20px 30px 20px 30px;
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+ outline: none;
+ border: none;
+ color: #fff;
+ cursor: pointer;
+ border-radius: 20px;
+}
+
+.feature .left-col .bmr:hover{
+  background-color: #11b563;
+}
+.feature .left-col .bmrr:hover{
+  background-color: #11b563;
+}
+
+footer .left-col{
+  width: 92%;
+}
+footer .right-col{
+  width: 32%;
+}
+footer{
+  height: 100px;
+  background-color: #2864b1;
+}
+footer .left-col{
+  margin-top: 20px;
+}
+footer p{
+  font-size: 20px;
+  color: #fff;
+  margin-top: 40px;
+}
+.feature-col{
+  background-image: url("./business-man-and-woman.jpg");
+  background-position: 100% 5%;
+  height: 600px;
+  opacity: 0.6;
+}
+.feature2{
+  position: relative;
+}
+.overflow{
+  background-color: #2864b1;
+  position: absolute;
+  top: 0px;
+  height: 600px;
+  opacity: 0.9;
+  width: 100%;
+  border-bottom: 2px solid #fff;
+}
+.feature2 h2{
+  font-size: 30px;
+  margin-left: 15%;
+  padding: 60px;
+  color: #fff;
+}
+.overflow img{
+  height: 30px;
+  width: 30px;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+.overflow .left-col{
+  width: 33%;
+}
+.overflow .middle-col{
+  width: 33%;
+}
+.overflow .right-col{
+  width: 33%;
+}
+.overflow .circle{
+  border: 5px solid #5e88bf;
+  border-radius: 50%;
+  background-color: #fff;
+  width: 80px;
+  height: 80px;
+  margin-left: 150px;
+}
+.overflow h3{
+  color: #fff;
+  margin-top: 30px;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.overflow  p{
+  margin-top: 30px;
+  font-size: 18px;
+  color: #fff;
+  text-align: justify;
+  width: 90%;
+  margin-left: 40px;
+}
+.feature .right-col img{
+  width: 100%;
+  margin-left: 40px;
+}
+.login h1{
+  font-size: 30px;
+  font-family: "Open Sans TTF", sans-serif;
+  margin-top: 20px;
+  text-align: center;
+}
+.login p{
+  text-align: center;
+}
+.login input{
+  margin-top: 30px;
+  height: 40px;
+  width: 40%;
+  margin-left: 28%;
+}
+
+.login button{
+  background-color: #fe8c26;
+  padding: 10px 17% 10px 17%;
+  margin-top: 30px;
+  font-size: 25px;
+  font-weight: bold;
+  color: #fff;
+  margin-left: 28%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.login button:hover{
+  background-color: #11b563;
+}
+.login .forgetpwd{
+  color: #11b563;
+  margin-top: 30px;
+  display: inline-block;
+  margin-left: 42%;
+}
+.login span{
+  margin-left: 38%;
+}
+.login .createaccount{
+  color: #11b563;
+  margin: 30px 0px 50px 0px;
+  display: inline;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 0%;
+  padding: 0px;
+}
+.login .createaccount:hover{
+  background-color: transparent;
+}
+.register{
+  margin:50px 0 80px 20%;
+}
+.register input,.form-control{
+ height: 32px;
+ margin-bottom: 20px;
+ border-radius: 3px;
+ width: 100%;
+border:solid 1px grey;
+}
+textarea{
+	resize:none;
+	height: 50px;
+ margin-bottom: 20px;
+ border-radius: 3px;
+ width: 100%;
+border:solid 1px grey;
+}
+
+.register .col-left{
+  width: 33%;
+  margin-right: 30px;
+}
+
+.register .col-middle{
+  width: 33%;
+}
+.register .col-right{
+  width: 33%;
+}
+.register span{
+  color: red;
+}
+.btnregister{
+  color: #fff;
+  display: inline-block;
+  font-size: 25px;
+  padding: 5px 10px 5px 10px;
+  background-color: #f73f00;
+  border-radius: 5px;
+  outline: none;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+.register p{
+  margin-bottom: 40px;
+
+}
+.section-success{
+	height: 400px;
+}
+.success .loginnow {
+  color: #11b563;
+  margin: 30px 0px 50px 0px;
+  display: inline;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 300;
+  margin-left: 0%;
+  padding: 0px;
+  cursor: pointer;
+  border: none;
+  outline: none;
+}
+
+.success .loginnow:hover{
+  color: #f73f00;
+}
+.success span{
+  margin-left: 38%;
+}
+.errormsg{
+	 margin-top: 20px;
+	color: red;
+}
+.pchange{
+	margin-top: 20px;
+	color: green;
+}
+.temp img{
+	width: 100%;
+}
+.temp{
+	width: 20%;
+	border: 2px black solid;
+	margin: 10px;
+	float: left;
+	position: relative;
+	opacity: 0.2;
+	margin-left: 4%;
+}
+
+.temp:hover{
+	opacity: 1;
+	border: 2px solid orange;
+}
+.temp:hover .dbmr{
+	display: block;
+}
+.dbmr{
+	background-color: #ed1b2e;
+  padding: 20px 30px 20px 30px;
+  font-size: 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+ outline: none;
+ border: none;
+ color: #fff;
+ cursor: pointer;
+ position: absolute;
+ top: 40%;
+left: 7%;
+border-radius: 20px;
+display: none;
+}
+.resume{
+  margin-top: 30px;
+  font-size: 25px;
+  text-transform: uppercase;
+  text-align: center;
+}
+.email{
+	display: inline;
+}
+.desc{
+	padding: 15px;
+}
+#dawnload{
+	margin-left: 20%;
+}
+.temp2 .col-left{
+	width: 32%;
+	 margin-right:20px;
+}
+.temp2 .col-middle{
+	width: 32%;
+	 margin-right:20px;
+}
+.temp2 .col-right{
+	width: 32%;
+}
+
+.temp2 input{
+ height: 32px;
+ margin-bottom: 20px;
+ border-radius: 3px;
+ width: 100%;
+border:solid 1px grey;
+}
+
+#rempsecond .col-1{
+	width: 33%;
+	border-right: 1px solid #000;
+	text-align: center;
+}
+#rempsecond .col-2{
+	width: 33%;
+	border-right: 1px solid #000;
+	text-align: center;
+}
+#rempsecond .col-3{
+	width: 33%;
+	text-align: center;
+}
+#rempsecond .line{
+	border: 1px solid #000;
+}
+#rempsecond span {
+margin-left: 15px;	
+}
